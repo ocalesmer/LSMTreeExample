@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSMTreeExample.API", "LSMTreeExample.API\LSMTreeExample.API.csproj", "{9EFDCFEC-A80B-4B5A-8493-413A17221550}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSMTreeExample.API.Business", "LSMTreeExample.API.Business\LSMTreeExample.API.Business.csproj", "{19DA5AE7-84E4-4D60-B702-2C23FD5CCF15}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EFDCFEC-A80B-4B5A-8493-413A17221550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EFDCFEC-A80B-4B5A-8493-413A17221550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EFDCFEC-A80B-4B5A-8493-413A17221550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EFDCFEC-A80B-4B5A-8493-413A17221550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19DA5AE7-84E4-4D60-B702-2C23FD5CCF15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19DA5AE7-84E4-4D60-B702-2C23FD5CCF15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19DA5AE7-84E4-4D60-B702-2C23FD5CCF15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19DA5AE7-84E4-4D60-B702-2C23FD5CCF15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

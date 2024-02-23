@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "tVF1xPjaYeK0mAvLIFWPrvpbRwJD/RqnM7HI5FW9yW8gAHwG0r3+4RBdBuxMaTEGlkrZ/R4WoBLGJv8k8uN2mw==",
+  "success": true,
+  "projectFilePath": "C:\\Avva\\Playgrounds\\LSMTreeExample\\LSMTreeExample.API\\LSMTreeExample.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ocal\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\ocal\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ocal\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\ocal\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\ocal\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\ocal\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
