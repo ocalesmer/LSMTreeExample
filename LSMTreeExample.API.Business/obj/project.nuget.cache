@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YdT1ydbG8+8gD21D4s21LOyKOqzwRWmjntW77hnWAIgpEjw6WnvgngruNJJcfG8CbQqRebhsaE/z0rsibSkrcA==",
+  "dgSpecHash": "QhKFJq6VTZsu/1+yjSNK7QkTimRcR1ukrRB2tEmgHm09Y9b7YstHgDVpnNZDGFWBQ33Yj35IOP0eaRSzdQDA0w==",
   "success": true,
-  "projectFilePath": "C:\\Avva\\Playgrounds\\LSMTreeExample\\LSMTreeExample.API.Business\\LSMTreeExample.API.Business.csproj",
+  "projectFilePath": "C:\\Avva\\Playgrounds\\LsmTreeExample\\LSMTreeExample.API.Business\\LSMTreeExample.API.Business.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

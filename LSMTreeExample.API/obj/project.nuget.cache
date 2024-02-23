@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tVF1xPjaYeK0mAvLIFWPrvpbRwJD/RqnM7HI5FW9yW8gAHwG0r3+4RBdBuxMaTEGlkrZ/R4WoBLGJv8k8uN2mw==",
+  "dgSpecHash": "akN192Sj/dEpmNY2RLOCvu6/VUGYTSkdEHdSkp/o/NdyGnSRMzQbu0t31+sHDSKAHXxnkTZ6gVYJhWqU6fWTiA==",
   "success": true,
-  "projectFilePath": "C:\\Avva\\Playgrounds\\LSMTreeExample\\LSMTreeExample.API\\LSMTreeExample.API.csproj",
+  "projectFilePath": "C:\\Avva\\Playgrounds\\LsmTreeExample\\LSMTreeExample.API\\LSMTreeExample.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ocal\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\ocal\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
