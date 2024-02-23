@@ -43,7 +43,16 @@ namespace LSMTreeExample.API.Business.Services
         // Veri getirme işlemi
         public string Get(int key)
         {
-            // En son eklenen verilerden başlayarak tüm SSTable'ları kontrol et
+            // Bellek tablosunda ara
+            foreach (var kvp in memTable)
+            {
+                if (kvp.Key == key)
+                {
+                    return kvp.Value;
+                }
+            }
+
+            // Bellek tablosunda bulunamazsa SSTable'ları kontrol et
             for (int i = sstables.Count - 1; i >= 0; i--)
             {
                 var sstable = sstables[i];
@@ -55,6 +64,7 @@ namespace LSMTreeExample.API.Business.Services
                     }
                 }
             }
+
             return null; // Key bulunamadı
         }
 
