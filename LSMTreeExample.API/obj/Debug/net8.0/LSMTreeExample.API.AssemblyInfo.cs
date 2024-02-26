@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LSMTreeExample.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a92af20cd10936703b2ac06b6cd0f64f796515ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d8657012d52ad49dc2e06e296ddb2036416754c")]
 [assembly: System.Reflection.AssemblyProductAttribute("LSMTreeExample.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LSMTreeExample.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -6,7 +6,7 @@ namespace LSMTreeExample.API.Business.Services
     public class LSMTreeService : ILSMTreeService
     {
         private List<KeyValue> memTable; // Bellekteki tablo
-        private List<List<KeyValue>> sstables; // SSTable'lar
+        private List<List<KeyValue>> sstables; // SSTable'lar // Normalde diskte olur
         private int maxMemTableSize = 30;
         private int maxSSTableSize = 30;
 
