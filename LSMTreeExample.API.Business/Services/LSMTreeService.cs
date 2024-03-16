@@ -6,7 +6,7 @@ namespace LSMTreeExample.API.Business.Services
     public class LSMTreeService : ILSMTreeService
     {
         private List<KeyValue> memTable; // Bellekteki tablo
-        private List<List<KeyValue>> sstables; // SSTable'lar // Normalde diskte olur
+        private List<List<KeyValue>> sstables; // SSTable'lar // Normalde diskte olur ancak burda memeory'de tutuyoruz
         private int maxMemTableSize = 30;
         private int maxSSTableSize = 30;
 
@@ -21,7 +21,22 @@ namespace LSMTreeExample.API.Business.Services
         // Veri ekleme işlemi
         public void Put(int key, string value)
         {
-            memTable.Add(new KeyValue { Key = key, Value = value });
+            // Bellek tablosunda varsa güncelle, yoksa ekle
+            bool found = false;
+            foreach (var kvp in memTable)
+            {
+                if (kvp.Key == key)
+                {
+                    kvp.Value = value;
+                    found = true;
+                    break;
+                }
+            }
+            if (!found)
+            {
+                memTable.Add(new KeyValue { Key = key, Value = value });
+            }
+
             if (memTable.Count >= maxMemTableSize)
             {
                 FlushMemTable();
@@ -71,7 +86,28 @@ namespace LSMTreeExample.API.Business.Services
         // Veri silme işlemi
         public void Delete(int key)
         {
-            Put(key, null); // Key'i null olarak güncelle (işaretleyerek silme)
+            // Bellek tablosunda ara ve varsa null olarak işaretle
+            for (int i = 0; i < memTable.Count; i++)
+            {
+                if (memTable[i].Key == key)
+                {
+                    memTable[i].Value = null;
+                    return;
+                }
+            }
+
+            // SSTable'larda ara ve varsa null olarak işaretle
+            foreach (var sstable in sstables)
+            {
+                for (int i = 0; i < sstable.Count; i++)
+                {
+                    if (sstable[i].Key == key)
+                    {
+                        sstable[i].Value = null;
+                        return;
+                    }
+                }
+            }
         }
 
         // Compaction işlemi

@@ -449,11 +449,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Avva\\Playgrounds\\LsmTreeExample\\LSMTreeExample.API\\LSMTreeExample.API.csproj",
+      "projectUniqueName": "C:\\Avva\\Playgrounds\\LSMTreeExample\\LSMTreeExample.API\\LSMTreeExample.API.csproj",
       "projectName": "LSMTreeExample.API",
-      "projectPath": "C:\\Avva\\Playgrounds\\LsmTreeExample\\LSMTreeExample.API\\LSMTreeExample.API.csproj",
+      "projectPath": "C:\\Avva\\Playgrounds\\LSMTreeExample\\LSMTreeExample.API\\LSMTreeExample.API.csproj",
       "packagesPath": "C:\\Users\\ocal\\.nuget\\packages\\",
-      "outputPath": "C:\\Avva\\Playgrounds\\LsmTreeExample\\LSMTreeExample.API\\obj\\",
+      "outputPath": "C:\\Avva\\Playgrounds\\LSMTreeExample\\LSMTreeExample.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ocal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -470,8 +470,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Avva\\Playgrounds\\LsmTreeExample\\LSMTreeExample.API.Business\\LSMTreeExample.API.Business.csproj": {
-              "projectPath": "C:\\Avva\\Playgrounds\\LsmTreeExample\\LSMTreeExample.API.Business\\LSMTreeExample.API.Business.csproj"
+            "C:\\Avva\\Playgrounds\\LSMTreeExample\\LSMTreeExample.API.Business\\LSMTreeExample.API.Business.csproj": {
+              "projectPath": "C:\\Avva\\Playgrounds\\LSMTreeExample\\LSMTreeExample.API.Business\\LSMTreeExample.API.Business.csproj"
             }
           }
         }
@@ -515,7 +515,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
